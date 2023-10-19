@@ -232,7 +232,7 @@ Personalized recommendations require the cookie value after logging in, so only 
 
 ### Essays {#paul-graham-essays}
 
-<Route author="Maecenas" example="/blogs/paulgraham" path="/blogs/paulgraham"/>
+<Route author="Maecenas nczitzk" example="/paulgraham/articles" path="/paulgraham/articles" radar="1" rssbud="1"/>
 
 ## Phrack Magazine {#phrack-magazine}
 
@@ -373,7 +373,7 @@ Limit the number of entries to be retrieved by adding `?limit=x` to the end of t
 
 ### 用户博客 {#cai-xin-bo-ke-yong-hu-bo-ke}
 
-<Route author="Maecenas" example="/caixin/blog/zhangwuchang" path="/caixin/blog/:column" paramsDesc={['博客名称，可在博客主页的 URL 找到']}>
+<Route author="Maecenas" example="/caixin/blog/zhangwuchang" path="/caixin/blog/:column?" paramsDesc={['博客名称，可在博客主页的 URL 找到']}>
 
 通过提取文章全文，以提供比官方源更佳的阅读体验.
 
@@ -539,6 +539,12 @@ Limit the number of entries to be retrieved by adding `?limit=x` to the end of t
 
 <Route author="aneasystone" example="/cloudnative/blog" path="/cloudnative/blog"/>
 
+## 浙江大学可视分析小组 {#zhe-jiang-da-xue-ke-shi-fen-xi-xiao-zu}
+
+### 博客 {#zhe-jiang-da-xue-ke-shi-fen-xi-xiao-zu-bo-ke}
+
+<Route author="KaiyoungYu" example="/zjuvag/blog" path="/zjuvag/blog" radar="1"/>
+
 ## 支流科技 {#zhi-liu-ke-ji}
 
 ### 博客 {#zhi-liu-ke-ji-bo-ke}
@@ -559,6 +565,6 @@ Limit the number of entries to be retrieved by adding `?limit=x` to the end of t
 
 </Route>
 
-### TOP 20 {#zhu-bai-top-20}
+### 上周热门 TOP 20 {#zhu-bai-shang-zhou-re-men-top-20}
 
-<Route author="nczitzk" example="/zhubai/top20" path="/zhubai/top20"/>
+<Route author="nczitzk" example="/zhubai/top20" path="/zhubai/top20" radar="1" rssbud="1"/>
