@@ -976,6 +976,9 @@
     "/bsky/keyword/:keyword": [
         "untitaker"
     ],
+    "/bsky/profile/:handle": [
+        "TonyRL"
+    ],
     "/btzj/:category?": [
         "nczitzk"
     ],
@@ -2771,6 +2774,9 @@
     "/gov/moj/aac/news/:type?": [
         "TonyRL"
     ],
+    "/gov/moj/lfyjzj": [
+        "la3rence"
+    ],
     "/gov/mot/:category?": [
         "nczitzk"
     ],
@@ -3798,11 +3804,20 @@
         "HenryQW",
         "JimenezLi"
     ],
-    "/jiemian": [
+    "/jiemian/account/main/:id": [
         "nczitzk"
     ],
-    "/jiemian/list/:id?": [
+    "/jiemian/lists/:id": [
         "WenhuWee",
+        "nczitzk"
+    ],
+    "/jiemian/pro/lists/:id": [
+        "nczitzk"
+    ],
+    "/jiemian/special/lists/:id": [
+        "nczitzk"
+    ],
+    "/jiemian/video/lists/:id": [
         "nczitzk"
     ],
     "/jike/topic/:id/:showUid?": [
@@ -4037,6 +4052,12 @@
         "auto-bot-ty"
     ],
     "/lifetimes/:category?": [],
+    "/lifeweek/channel/:channel": [
+        "changren-wcr"
+    ],
+    "/lifeweek/tag/:tag": [
+        "changren-wcr"
+    ],
     "/lightnovel/:keywords/:security_key?": [
         "nightmare-mio"
     ],
@@ -4274,6 +4295,9 @@
         "Derekmini"
     ],
     "/mediadigest/:range/:category?": [],
+    "/medieval-china": [
+        "artefaritaKuniklo"
+    ],
     "/medium/following/:user": [
         "ImSingee"
     ],
@@ -5039,6 +5063,9 @@
     "/panewslab/topic/:id": [
         "nczitzk"
     ],
+    "/papers/:category?": [
+        "nczitzk"
+    ],
     "/paradigm/writing": [
         "Fatpandac"
     ],
@@ -5437,7 +5464,8 @@
     ],
     "/qutoutiao/category/:cid": [],
     "/qweather/3days/:location": [
-        "Rein-Ou"
+        "Rein-Ou",
+        "la3rence"
     ],
     "/qweather/now/:location": [
         "Rein-Ou"
@@ -5778,8 +5806,9 @@
         "gumibea",
         "TeamSUEP"
     ],
-    "/shmeea": [
-        "jialinghui"
+    "/shmeea/:id?": [
+        "jialinghui",
+        "Misaka13514"
     ],
     "/shmeea/self-study": [
         "h2ws"
